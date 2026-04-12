@@ -72,7 +72,8 @@ A preemptive real-time scheduling algorithm:
 | `lottery.cpp` | Member 3 | Lottery scheduling — ticket allocation, random draw, quantum management |
 | `edf.cpp` | Member 4 | EDF scheduling — deadline sorting, preemptive assignment, global scheduling |
 | `main.cpp` | Member 5 | User interface, process input, Gantt chart rendering, metrics tables, comparison bar charts |
-
+| `main.cpp` | Member 5 | User interface, process input, Gantt chart rendering, metrics tables, comparison bar charts |
+| `readme.md` | Member 6 | Execution support(scheduler.exe) and overall readme compilation |
 ## How to Compile and Run
 
 ### Prerequisites
