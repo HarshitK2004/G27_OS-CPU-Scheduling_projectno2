@@ -67,13 +67,12 @@ A preemptive real-time scheduling algorithm:
 
 | File | Member | Responsibility |
 |------|--------|----------------|
-| `common.h` | Member 1 | Core structures (`Process`, `SimResult`), color codes, console setup, metrics calculation |
-| `mlfq.cpp` | Member 2 | MLFQ scheduling — queue management, demotion logic, priority boost |
-| `lottery.cpp` | Member 3 | Lottery scheduling — ticket allocation, random draw, quantum management |
-| `edf.cpp` | Member 4 | EDF scheduling — deadline sorting, preemptive assignment, global scheduling |
-| `main.cpp` | Member 5 | User interface, process input, Gantt chart rendering, metrics tables, comparison bar charts |
-| `main.cpp` | Member 5 | User interface, process input, Gantt chart rendering, metrics tables, comparison bar charts |
-| `readme.md` | Member 6 | Execution support(scheduler.exe) and overall readme compilation |
+| `common.h` | Patel Manav(22JE0670) | Core structures (`Process`, `SimResult`), color codes, console setup, metrics calculation |
+| `mlfq.cpp` | Javadala Mathew(21JE0425) | MLFQ scheduling — queue management, demotion logic, priority boost |
+| `lottery.cpp` | Anubhav Singh(21JE0141) | Lottery scheduling — ticket allocation, random draw, quantum management |
+| `edf.cpp` | Sushanth Sharma(22JE1001) | EDF scheduling — deadline sorting, preemptive assignment, global scheduling |
+| `main.cpp` | Harshit Kumar(21JE0390) | User interface, process input, Gantt chart rendering, metrics tables, comparison bar charts |
+| `readme.md` | Naman Meena(22JE0606) | Execution support(scheduler.exe) and overall readme compilation |
 ## How to Compile and Run
 
 ### Prerequisites
